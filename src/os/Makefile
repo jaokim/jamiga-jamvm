@@ -1,0 +1,2 @@
+
+cd amiga; make Makefile

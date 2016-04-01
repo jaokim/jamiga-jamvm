@@ -1,0 +1,18 @@
+VERSION		EQU	1
+REVISION	EQU	4
+
+DATE	MACRO
+		dc.b '2.11.2013'
+		ENDM
+
+VERS	MACRO
+		dc.b 'jamvm 1.4'
+		ENDM
+
+VSTRING	MACRO
+		dc.b 'jamvm 1.4 (2.11.2013)',13,10,0
+		ENDM
+
+VERSTAG	MACRO
+		dc.b 0,'$VER: jamvm 1.4 (2.11.2013)',0
+		ENDM
